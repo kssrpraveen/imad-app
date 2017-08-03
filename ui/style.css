@@ -19,4 +19,31 @@ body {
 .img-medium {
     height: 200px;
 }
+.cat{
+    text-align:center;
+    color:white;
+    background:black;
+    
+}
+h1{
+    text-decoration:underline;
+    text-shadow:3px 2px red;
+    font-family:sans-serif;
+    font-style:italic;
+    font-size:50px;
+}
+p{
+    text-indent:60px;
+    word-spacing:3px;
+    font-family:monospace;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:hotpink;
+}
 
