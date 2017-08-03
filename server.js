@@ -19,7 +19,7 @@ var articles={
     date:'sep 15 2010',
     content:
     `<p>GO TO GAYATRI COLLGE WEBSITE.VIST THIS LINK</p>
-     <a href="http://gvpce.ac.in/" target="_blank">this is a link></a>`
+     <a href="http://gvpce.ac.in/" target="_blank">this is a link</a>`
 },
 'articlethree':{
     title:'article-three|praveen',
