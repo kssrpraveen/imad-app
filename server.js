@@ -90,7 +90,7 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('/articles/:articleName',function(req,res){
-    pool.query("select * from article where title="+req.params.articleName,function(err,result)
+    pool.query("select * from article where title='"+req.params.articleName+"'",function(err,result)
     {
         if(err)
         {
