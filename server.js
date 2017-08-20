@@ -73,7 +73,7 @@ app.get('/', function (req, res) {
 var pool=new Pool(config);
 app.get('/db-rs',function(req,res)
 {
-    pool.query('SELECT * FROM STUDENT',function(err,result)
+    pool.query('SELECT * FROM article',function(err,result)
     {
       if(err)
       {
