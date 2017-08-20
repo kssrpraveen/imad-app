@@ -70,7 +70,7 @@ return hTemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-var Pool=new Pool(config);
+var pool=new Pool(config);
 app.get('/db-rs',function(req,res)
 {
     pool.query('SELECT * FROM STUDENT',function(err,result)
