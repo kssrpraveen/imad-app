@@ -6,8 +6,8 @@ var img=document.getElementById('madi');
 function moveRight()
 {
   
-   marginleft=marginleft+10;
-   img.style.marginleft=marginleft+'px';
+   marginLeft=marginLeft+10;
+   img.style.marginLeft=marginLeft+'px';
     
 }
 img.onClick=function(){
