@@ -19,6 +19,6 @@ var counter=0;
 var button=getElementById('but');
 button.onclick=function(){
  counter=counter+1;
- var c=getElementById('spa');
+ var c=doucument.getElementById('spa');
  c.innerHTML=counter.toString();
 };
