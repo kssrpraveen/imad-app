@@ -17,7 +17,7 @@ img.onclick=function(){
 };
 
 var c=doucument.getElementById('spa');
- c.innerHTML=10;
+ c.innerHTML='10';
 
 var counter=0;
 var button=getElementById('but');
