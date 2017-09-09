@@ -1,5 +1,5 @@
 console.log('Loaded!');
-var element=document.getElementById('main-text');
+var element=document.getElementById('spa');
 element.innerHTML='New Value';
 var img=document.getElementById('madi');
   var marginLeft=0;
@@ -16,12 +16,13 @@ img.onclick=function(){
     
 };
 
-var c=doucument.getElementById('spa');
- c.innerHTML='10';
 
 var counter=0;
 var button=getElementById('but');
 button.onclick=function(){
  counter=counter+1;
+ var c=doucument.getElementById('spa');
+ c.innerHTML='10';
+
  
 };
