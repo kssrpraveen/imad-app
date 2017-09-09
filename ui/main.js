@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var element=document.getElementById('spa');
-element.innerHTML='New Value';
+element.innerHTML='10';
 var img=document.getElementById('madi');
   var marginLeft=0;
 function moveRight()
