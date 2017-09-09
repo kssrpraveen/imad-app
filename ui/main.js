@@ -16,12 +16,12 @@ img.onclick=function(){
     
 };
 
-
+var c=doucument.getElementById('spa');
+ c.innerHTML=10;
 
 var counter=0;
 var button=getElementById('but');
 button.onclick=function(){
  counter=counter+1;
- var c=doucument.getElementById('spa');
- c.innerHTML=10;
+ 
 };
